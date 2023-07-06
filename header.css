@@ -1,0 +1,122 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: -webkit-box;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header__logo {
+    align-items: center;
+}
+
+.header__logo img {
+    margin-right: 0;
+}
+
+.header__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header__info-subname {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 5px;
+    padding-top: 15px;
+}
+
+.header__info-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+.header__info-affiliation {
+    font-size: 12px;
+    color: #555;
+}
+
+.navbar {
+    list-style-type: none;
+    margin-left:460px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.navbar__item {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: left;
+}
+.navbar__list {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar__item a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navbar__item a:hover {
+    background-color: white;
+    list-style-type: none;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    list-style-type: none;
+}
+.dropdown-menu ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.dropdown-menu__item {
+    position: relative;
+    list-style-type: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    list-style-type: none;
+}
+
+.small {
+    font-size: 12px;
+    color: #777;
+}
+
+@media screen and (max-width: 375px) {
+    .navbar {
+        display: none;
+    }
+    .header__info-subname {
+        font-size: 11px;
+    }
+    .header__info-title {
+        font-size: 11px;
+    }
+    .header__info-affiliation {
+        font-size: 11px;
+    }
+    .header__logo img {
+        width: 70px;
+    }
+}

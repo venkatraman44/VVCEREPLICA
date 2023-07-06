@@ -1,0 +1,26 @@
+.logoblock {
+    display: flex;
+    justify-content: center;
+}
+.logoblock__logos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 115px;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.logoblock__logos img {
+    width: 60px;
+}
+@media  screen and (max-width:375px) {
+    .logoblock {
+        display: flex;
+    }
+    .logoblock__logos img {
+        width: 81px;
+    }
+}

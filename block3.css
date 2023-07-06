@@ -1,0 +1,35 @@
+.contact-info_office {
+    background-color: #005792;
+    color : white;
+    flex-basis: 40%;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.contact-info_principal {
+    background-color: #126DAC;
+    color : white;
+    flex-basis: 40%;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.contact-info_admissions {
+    background-color: #3F99DC;
+    color : white;
+    flex-basis: 40%;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 375px) {
+    .contact-info {
+        display: block;
+    }
+}

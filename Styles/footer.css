@@ -1,0 +1,82 @@
+footer {
+  background: #212121;
+  margin-top: 20px;
+  padding-top: 15px;
+}
+
+.footer__menu {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.footer__list ul {
+  list-style: none;
+}
+.footer__list ul h4 {
+  color: white;
+  font-size: 16px;
+}
+.footer__list ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+.footer__column1 {
+  padding: 0px 15px 0 15px;
+}
+.footer__column2 {
+  display: flex;
+  flex-direction: column;
+}
+.footer__college {
+  display: flex;
+  align-items: center;
+}
+.footer__image a img {
+  width: 80px;
+}
+.footer__address {
+  width: 360px;
+  color: white;
+  font-size: 12.8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer__phone {
+  color: white;
+  font-size: 12.8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer__email {
+  color: white;
+  font-size: 12.8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer__title {
+  color: white;
+}
+.footer__title-heading {
+  font-size: 18px;
+}
+.footer__title-subheading {
+  font-size: 10px;
+}
+.footer__icons ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding-left: 0;
+}
+.footer__icons ul li a {
+  color: white;
+}
+
+.footer2 {
+  background: #FF8300;
+  padding: 4px;
+}/*# sourceMappingURL=footer.css.map */

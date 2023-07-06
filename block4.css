@@ -1,0 +1,89 @@
+.block4 {
+    display: flex;
+    width: 51.362%;
+    padding: 40px;
+    margin-left: 20%;
+}
+.block4-collegeinfo {
+    width:50% ;
+}
+
+.block4-collegeinfo__aboutcollege {
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.block4-collegeinfo__readmore {
+    padding: 10px;
+    background-color:#61CE73;
+    margin-top: 20px;
+    width: fit-content;
+    border-radius: 5px;
+}
+.block4-collegeinfo__readmore a {
+    color: white;
+}
+.block4-collegeinfo__tba {
+    background-color:#61CE73;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+.block4-collegeinfo__ranking {
+    background-color: #005792;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 240px;
+}
+.block4-collegeinfo__ranking h3 {
+    margin-top: 2px;
+    font-size: 30px;
+    margin-bottom: 2px;
+}
+.block4-collegeinfo__video {
+    margin-top: 20px;
+}
+.block4-collegeinfo__video video {
+    width: 97%;
+}
+.block4-collegeyoutube {
+    margin-left: 10px;
+    position: relative;
+}
+@media screen and (max-width: 375px) {
+    .block4 {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin-left: 0%;
+    }
+    .block4-collegeinfo {
+        width:100% ;
+    }
+    .block4-collegeinfo__aboutcollege {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .block4-collegeinfo__video {
+        margin-left: 10px;
+    }
+    .block4-collegeyoutube {
+        width: 100%;
+        margin-left: 0;
+
+    }
+    .block4-collegeyoutube iframe {
+        width: 100%;
+    }
+
+}

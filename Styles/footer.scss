@@ -1,0 +1,85 @@
+footer {
+    background: #212121;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+.footer {
+    &__menu {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+    }
+    &__list ul {
+        list-style: none;
+        h4 {
+            color: white;
+            font-size: 16px;
+        }
+        li a {
+            text-decoration: none;
+            color: white;
+            font-size: 12px;
+        }
+    }
+    &__column1 {
+        padding: 0px 15px 0 15px;
+    }
+    &__column2 {
+        display: flex;
+        flex-direction: column;
+    }
+    &__college {
+        display: flex;
+        align-items: center;
+    }
+    &__image a img {
+        width: 80px;
+    }
+    &__address {
+        width: 360px;
+        color: white;
+        font-size: 12.8px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    &__phone {
+        color: white;
+        font-size: 12.8px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    &__email {
+        color: white;
+        font-size: 12.8px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    &__title {
+        color: white;
+        &-heading {
+            font-size: 18px;
+        }
+        &-subheading {
+            font-size: 10px;
+        }
+    }
+    &__icons {
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            padding-left: 0;
+
+            li a {
+                color: white;
+            }
+        }
+    }
+}
+.footer2 {
+    background: #FF8300;
+    padding: 4px;
+}

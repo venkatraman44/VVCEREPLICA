@@ -1,0 +1,12 @@
+footer {
+    background-color: red;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+.footer__menu {
+    display: flex;
+    justify-content: center;
+}
+.footer__column1 ul {
+    list-style: none;
+}

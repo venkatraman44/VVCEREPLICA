@@ -1,0 +1,25 @@
+.block2 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.block2 h2 {
+    font-size: 15px;
+}
+
+.block2-toprecruiters_images {
+    display: flex;
+    flex-direction: row;
+}
+.block2-toprecruiters_images img {
+    width: 200px;
+}
+
+
+@media screen and (max-width: 375px) {
+    .block2-toprecruiters_images img {
+        width: 66px;
+    }
+}
